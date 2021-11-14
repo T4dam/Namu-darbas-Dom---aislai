@@ -14,7 +14,7 @@
       "type": "absolute",
       "amount": 5
     },
-    "imgSrc": "https://m.media-amazon.com/images/I/51GKoBzY4aL._AC_SX450_.jpg'string'"
+    "imgSrc": "https://m.media-amazon.com/images/I/51GKoBzY4aL._AC_SX450_.jpg"
   },
     {
     "id": "2",
@@ -62,7 +62,7 @@
       "type": "percentage",
       "amount": 5
     },
-    "imgSrc": "https://m.media-amazon.com/images/I/51GKoBzY4aL._AC_SX450_.jpg'string'"
+    "imgSrc": "https://m.media-amazon.com/images/I/91vdgs5FY4L._AC_SL1500_.jpg"
   },
     {
     "id": "5",
@@ -81,20 +81,20 @@
     "imgSrc": "https://m.media-amazon.com/images/I/71CYBHAttFL._AC_SL1500_.jpg"
   },
     {
-    "id": "1",
-    "title": "ship",
+    "id": "6",
+    "title": "Rocket",
     "price": {
       "currency": "€",
-      "amount": 58
+      "amount": 55
     },
     "ageRestrictions": {
-      "from": 8
+      "from": 4
     },
     "discount": {
       "type": "absolute",
       "amount": 10
     },
-    "imgSrc": "https://m.media-amazon.com/images/I/51GKoBzY4aL._AC_SX450_.jpg'string'"
+    "imgSrc": "https://static1.funidelia.com/238376-f6_big2/inflatable-jet-pack-costume-for-kids.jpg"
   }
 ]
 }
