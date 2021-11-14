@@ -6,11 +6,20 @@ class ToyGridComponent {
     };
     this.init();
   }
-  initFetch = () => {
+  initFetch = () =>
     setTimeout(() => {
-      return API.fetchToys(this.saveToys, alert);
+      API.fetchToys(
+        (toys) => {
+          this.state.loading = false;
+          this.saveToys(toys);
+        },
+        (err) => {
+          alert(err);
+          this.state.loading = false;
+          this.render();
+        }
+      );
     }, 1000);
-  };
 
   deleteToy = (id) => {
     API.deleteToy(id, () => API.fetchToys(this.saveToys, alert), alert);
