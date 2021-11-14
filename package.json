@@ -1,0 +1,23 @@
+{
+  "name": "tadas_delininkaitis_dom_-nd1",
+  "version": "1.0.0",
+  "description": "Namu darbas nr.1- Žaislai",
+  "main": "index.js",
+  "scripts": {
+    "start-unix": "node_modules/.bin/json-server --watch database.json",
+    "start-win": "node_modules\\.bin\\json-server --watch database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T4dam/Namu-darbas-Dom---aislai.git"
+  },
+  "author": "Tadas Delininkaitis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T4dam/Namu-darbas-Dom---aislai/issues"
+  },
+  "homepage": "https://github.com/T4dam/Namu-darbas-Dom---aislai#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
