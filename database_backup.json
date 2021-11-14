@@ -1,0 +1,100 @@
+{
+    "Toy": [
+    {
+    "id": "1",
+    "title": "Pirate Ship",
+    "price": {
+      "currency": "€",
+      "amount": 58
+    },
+    "ageRestrictions": {
+      "from": 4
+    },
+    "discount": {
+      "type": "absolute",
+      "amount": 5
+    },
+    "imgSrc": "https://m.media-amazon.com/images/I/51GKoBzY4aL._AC_SX450_.jpg'string'"
+  },
+    {
+    "id": "2",
+    "title": "Plane",
+    "price": {
+      "currency": "$",
+      "amount": 45.99
+    },
+    "ageRestrictions": {
+      "from": 5
+    },
+    "discount": {
+      "type": "percentage",
+      "amount": 10
+    },
+    "imgSrc": "https://m.media-amazon.com/images/I/51X6Sy72lLS._AC_SL1000_.jpg"
+  },
+    {
+    "id": "3",
+    "title": "Ball",
+    "price": {
+      "currency": "€",
+      "amount": 20
+    },
+    "ageRestrictions": {
+      "from": null
+    },
+    "discount": {
+      "type": "toFixed",
+      "amount": 16.99
+    },
+    "imgSrc": "https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/7512057372001"
+  },
+    {
+    "id": "4",
+    "title": "BasketBall",
+    "price": {
+      "currency": "$",
+      "amount": 25.95
+    },
+    "ageRestrictions": {
+      "from": null
+    },
+    "discount": {
+      "type": "percentage",
+      "amount": 5
+    },
+    "imgSrc": "https://m.media-amazon.com/images/I/51GKoBzY4aL._AC_SX450_.jpg'string'"
+  },
+    {
+    "id": "5",
+    "title": "Sword",
+    "price": {
+      "currency": "€",
+      "amount": 60
+    },
+    "ageRestrictions": {
+      "from": 7
+    },
+    "discount": {
+      "type": "toFixed",
+      "amount": 6.99
+    },
+    "imgSrc": "https://m.media-amazon.com/images/I/71CYBHAttFL._AC_SL1500_.jpg"
+  },
+    {
+    "id": "1",
+    "title": "ship",
+    "price": {
+      "currency": "€",
+      "amount": 58
+    },
+    "ageRestrictions": {
+      "from": 8
+    },
+    "discount": {
+      "type": "absolute",
+      "amount": 10
+    },
+    "imgSrc": "https://m.media-amazon.com/images/I/51GKoBzY4aL._AC_SX450_.jpg'string'"
+  }
+]
+}
