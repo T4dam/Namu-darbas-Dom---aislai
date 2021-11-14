@@ -12,6 +12,10 @@ class ToyGridComponent {
     }, 1000);
   };
 
+  deleteToy = (id) => {
+    API.deleteToy(id, () => API.fetchToys(this.saveToys, alert), alert);
+  };
+
   saveToys = (toys) => {
     this.state.toys = toys;
     this.state.loading = false;

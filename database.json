@@ -62,7 +62,7 @@
       "type": "percentage",
       "amount": 5
     },
-    "imgSrc": "https://m.media-amazon.com/images/I/91vdgs5FY4L._AC_SL1500_.jpg"
+    "imgSrc": "https://i5.walmartimages.com/asr/d05d62b3-3ca6-4a5f-af44-12feadd21a96.419ff5936943fbadeeefcadb4c58bec9.jpeg"
   },
     {
     "id": "5",
@@ -85,16 +85,16 @@
     "title": "Rocket",
     "price": {
       "currency": "€",
-      "amount": 55
+      "amount": 58
     },
     "ageRestrictions": {
-      "from": 4
+      "from": 8
     },
     "discount": {
       "type": "absolute",
       "amount": 10
     },
-    "imgSrc": "https://static1.funidelia.com/238376-f6_big2/inflatable-jet-pack-costume-for-kids.jpg"
+    "imgSrc": "https://cdn.shopify.com/s/files/1/0012/9282/8781/products/Rocket1.JPG?v=1547222255"
   }
 ]
 }
