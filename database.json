@@ -1,5 +1,5 @@
 {
-    "Toy": [
+    "Toys": [
     {
     "id": "1",
     "title": "Pirate Ship",
@@ -21,7 +21,7 @@
     "title": "Plane",
     "price": {
       "currency": "$",
-      "amount": 45
+      "amount": 45.99
     },
     "ageRestrictions": {
       "from": 5
@@ -40,11 +40,11 @@
       "amount": 20
     },
     "ageRestrictions": {
-      "from": "null"
+      "from": null
     },
     "discount": {
       "type": "toFixed",
-      "amount": 5
+      "amount": 16.99
     },
     "imgSrc": "https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/7512057372001"
   },
@@ -53,10 +53,10 @@
     "title": "BasketBall",
     "price": {
       "currency": "$",
-      "amount": 25
+      "amount": 25.95
     },
     "ageRestrictions": {
-      "from": "null"
+      "from": null
     },
     "discount": {
       "type": "percentage",
@@ -72,11 +72,11 @@
       "amount": 60
     },
     "ageRestrictions": {
-      "from": 9
+      "from": 7
     },
     "discount": {
       "type": "toFixed",
-      "amount": 6
+      "amount": 6.99
     },
     "imgSrc": "https://m.media-amazon.com/images/I/71CYBHAttFL._AC_SL1500_.jpg"
   },
@@ -92,7 +92,7 @@
     },
     "discount": {
       "type": "absolute",
-      "amount": 5
+      "amount": 10
     },
     "imgSrc": "https://m.media-amazon.com/images/I/51GKoBzY4aL._AC_SX450_.jpg'string'"
   }
