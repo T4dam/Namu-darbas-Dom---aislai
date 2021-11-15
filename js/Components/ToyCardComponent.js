@@ -1,5 +1,4 @@
 class ToyCardComponent {
-  static USD_EUR = 0.87;
   constructor(props) {
     this.props = props;
     this.init();
@@ -11,25 +10,37 @@ class ToyCardComponent {
   formatPrice = () => {
     const {
       price: { currency, amount },
-      discount: { type, amount: value },
+      discount: { type, amount: discountValue },
     } = this.props;
+
+    const USD_EUR = 0.87;
+
+    const oldPrice =
+      Math.round(100 * (currency === "$" ? amount * USD_EUR : amount)) / 100;
+    const finalDiscount =
+      type === "percentage"
+        ? discountValue
+        : Math.round(
+            100 * (currency === "$" ? discountValue * USD_EUR : discountValue)
+          ) / 100;
 
     let finalPrice;
     let discountBadge = "";
     if (type === "absolute") {
-      finalPrice = amount - value;
-      discountBadge = this.fortmatBadge(`-${value} ${currency}`);
+      finalPrice = Math.round(100 * (oldPrice - finalDiscount)) / 100;
+      discountBadge = this.fortmatBadge(`-${finalDiscount}  €`);
     } else if (type === "toFixed") {
-      finalPrice = value;
+      finalPrice = finalDiscount;
     } else if (type === "percentage") {
-      finalPrice = Math.round(100 * amount * (1 - value / 100)) / 100;
-      discountBadge = this.fortmatBadge(`-${value} %`);
+      finalPrice =
+        Math.round(100 * (oldPrice * (1 - finalDiscount / 100))) / 100;
+      discountBadge = this.fortmatBadge(`-${finalDiscount} %`);
     }
 
     return `
     <span class="d-inline-flex">
-      <span class="text-decoration-line-through fw-light pe-2 text-danger">${amount} ${currency}</span>
-      <strong class="text-primary position-relative">${finalPrice} ${currency} ${discountBadge}</strong>
+      <span class="text-decoration-line-through fw-light pe-2 text-danger">${oldPrice} €</span>
+      <strong class="text-primary position-relative">${finalPrice} € ${discountBadge}</strong>
     </span>`;
   };
 
